@@ -11,10 +11,10 @@ END   := $(shell printf "\e[0m")
 pipeline:
 	# $(INFO) Starting local pipeline... $(END)
 	@docker-compose up --remove-orphans -d 2> /dev/null
-	# $(OK) See local events:        http://sb.local:8001 $(END)
-	# $(OK) See local schemas:       http://sb.local:8000 $(END)
-	# $(INFO) Local schema registry: http://sb.local:8081 $(END)
-	# $(INFO) Local events gateway:  http://sb.local:8001 $(END)
+	# $(OK) See local events:        http://localhost:8001 $(END)
+	# $(OK) See local schemas:       http://localhost:8000 $(END)
+	# $(INFO) Local schema registry: http://localhost:8081 $(END)
+	# $(INFO) Local events gateway:  http://localhost:8001 $(END)
 	# $(INFO) Brokers urls:          broker:9092, localhost:29092, host.docker.internal:19092 $(END)
 
 registry:
