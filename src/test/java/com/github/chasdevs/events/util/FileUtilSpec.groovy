@@ -15,6 +15,6 @@ class FileUtilSpec extends Specification {
         then:
             paths != null
             paths instanceof ArrayList
-            paths.size() == 1
+            paths.size() == 4
     }
 }
