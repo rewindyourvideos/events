@@ -2,7 +2,6 @@ package dev.blockheads.events.command;
 
 import dev.blockheads.events.services.mediation.MediationService;
 import dev.blockheads.events.services.mediation.MediationServiceException;
-import com.github.chasdevs.events.services.repo.*;
 import dev.blockheads.events.clients.registry.SchemaRegistryClient;
 import dev.blockheads.events.clients.registry.SchemaRegistryException;
 import dev.blockheads.events.config.SchemaRegistryConfig;

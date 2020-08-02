@@ -6,7 +6,7 @@ plugins {
 	id 'io.spring.dependency-management' version '1.0.7.RELEASE'
 }
 
-group = 'com.github.chasdevs.events'
+group = 'dev.blockheads.events'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.12'
 
